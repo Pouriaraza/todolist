@@ -85,13 +85,13 @@ input[type=text]:focus {
 
     .options {
         display: flex;
+        justify-content: space-between;
 
         label {
-            width: 50%;
+            width: 40%;
             display: flex;
             flex-direction: column;
             padding: 1rem 2rem;
-            margin: 0 1rem;
             border-radius: 5px;
             align-items: center;
             background-color: #3b3b3b;
@@ -284,6 +284,7 @@ input:checked~.bubble::after {
 .todo-item .todo-content input {
     color: var(--light);
     font-size: 1.125rem;
+    width: 90%;
 }
 
 .todo-item .actions {
